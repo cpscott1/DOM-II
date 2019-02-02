@@ -34,3 +34,9 @@ for(var i= 0; i < funBusButton.length; i++){
   event.target.style.color = '#F8E0CF';
   })
 }
+
+const footer = document.querySelector('.footer');
+
+footer.addEventListener('mouseup', event => {
+  footer.style.backgroundColor = '#6FB9BC'
+})
